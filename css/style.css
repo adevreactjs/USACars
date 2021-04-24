@@ -94,13 +94,13 @@ a {
     
 }
 
-.header__social {
+.social {
     padding: 70px 0 20px 65px;
     display: flex;
     align-items: center;
 }
 
-.header__social-link {
+.social__link {
     margin-right: 10px;
 }
 
@@ -361,14 +361,15 @@ a {
     margin-top: 50px;
     list-style: none;
 
+
 }
 
 .carousel .slick-dots button {
+    background-color: #C4C4C4;
     font-size: 0;
     border: none;
     padding: 0;
     margin: 0 10px;  
-    background-color: #C4C4C4;
     width: 50px;
     height: 1px;
 }
@@ -461,4 +462,20 @@ a {
     color:#FFFFFF;
     margin-top: 78px;
     cursor: pointer;
+}
+
+.footer {
+    background-color: #21062A;
+}
+.social {
+    padding: 20px 0 20px 65px;
+
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#FFFFFF;
+    height: 100px;
 }
