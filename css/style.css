@@ -414,6 +414,7 @@ a {
 .contact__form {
     background-color:#21062A;
     padding: 50px 75px 57px;
+    text-align: center;
 }
 
 .contact_title {
@@ -423,7 +424,10 @@ a {
     font-size: 36px;
     line-height: 53px;
     text-transform: uppercase;
-    color: white
+    color: white;
+    margin-bottom: 16px;
+    margin-left: 53px; 
+    text-align: left;
 
 }
 
@@ -432,5 +436,29 @@ a {
 }
 
 .contacts__input {
-    
+    font-size: 24px;
+    text-align: center;
+    background-color: transparent;
+    width: 450px;
+    height: 75px;
+    color:white;
+    border: 1px solid #ffff;
+    margin-bottom: 12px;
+    display: block;
+}
+.contacts__input::placeholder {
+    text-align: center;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #C4C4C4;
+}
+
+.contacts__btn {
+    border: none;
+    color:#FFFFFF;
+    margin-top: 78px;
+    cursor: pointer;
 }
