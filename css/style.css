@@ -532,6 +532,21 @@ a {
         text-align: center;
     }
     .logo {
+        margin-bottom: 20px; 
         width: 100%;
+    }
+    .header__title {
+        margin-bottom: 20px;
+    }
+    .header__image {
+        position: static;
+        width: 100%;
+    }
+}
+
+@media (max-width: 340px) {
+    .header__title {
+        font-size: 44px;
+        line-height: 50px;
     }
 }
